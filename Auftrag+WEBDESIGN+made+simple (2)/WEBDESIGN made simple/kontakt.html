@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KONTAKT</title>
+  
+  <!--AUTOREN-STYLESHEET-->
+  <link rel="stylesheet" href="./src/css/styles.css" />
+
+</head>
+
+  <body>
+    <!--NAVIGATIONSLEISTE-->
+
+    <nav id="header-nav">
+
+      <!--DESKTOP-NAVIGATION-->
+      
+      <div class="container" id="desktop-nav">
+        <div class="row">
+      <div class="col-6">
+
+        <a href="index.html" class="logo-link">
+          <img src="./src/img/webdesign-logo.png" alt="Das Logo von webdesign-logo made simple">
+        </a>
+      
+        
+        <ul>
+          <li ><a href="index.html">Startseite</a></li>
+          <li><a href="leistungen.html">Leistungen</a></li>
+          <li class="active"><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!--MOBILE-NAVIGATION-->
+  
+  <div class="container" id="mobile-nav">
+    <div class="row">
+          <div class="col-6">
+            <a href="index.html" class="logo-link">
+              <img
+                src="./src/img/webdesign-logo.png"
+                alt="Logo von webdesign-logo made simple"
+              />
+            </a>
+            <div id="mobile-nav-dropdown" class="clearfix">
+              <div id="mobile-nav-button"><span>&equiv;</span></div>
+              <div id="mobile-nav-content" class="clearfix">
+                <ul>
+                  <li ><a href="index.html">Startseite</a></li>
+                  <li><a href="leistungen.html">Leistungen</a></li>
+                  <li class="active"><a href="kontakt.html">Kontakt</a></li>
+                  <li><a href="impressum.html">Impressum</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!--HEADER-BANNER-->
+<header id="header-banner-klein">
+</header>
+
+<!--KONTAKT-BEREICH-->
+
+<section id="kontakt-bereich">
+  <div class="container">
+
+  <div class="row">
+    <div class="col-6">
+      <header class="intro-container">
+      <h1>Kontakt</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam beatae nulla voluptatibus enim, at quae dignissimos totam exercitationem delectus veritatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, amet. Unde a id voluptates! Eius dolor ab tempore porro optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quibusdam. Sapiente nulla asperiores voluptatum sunt velit deleniti facere iure eveniet?
+      </p>
+      </header>
+    </div>
+  </div>
+  <form id="kontakt-formular" action="kontakt.html" method="post">
+  <div class="row">
+    <div class="col-3">
+      <label for="vorname" class="screenreader">Vorname:</label>
+      <input id="vorname" type="text" name="vorname" placeholder="Vorname">
+    </div>
+    <div class="col-3">
+      <label for="Nachname" class="screenreader">Nachname:</label>
+      <input id="Nachname" type="text" name="Nachname" placeholder="Nachname">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <label for="email" class="screenreader">E-Mail:</label>
+      <input id="email" type="text" name="email" placeholder="E-Mail" pattern="(?:[a-z0-9!#$%&'*+=?^_`\{\|\}~\-]+(?:\.[a-z0-9!#$%&'*+=?^_`\{\|\}~\-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9\-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9\-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9\-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" title="Gib eine gültige E-Mail E-Mail-Adresse ein">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <label for="nachricht" class="screenreader">Nachricht</label>
+      <textarea name="Nachricht" id="nachricht" placeholder="Nachricht"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <button id="absendenButton" class="btn-typ-3" type="submit" name="absendenButton">Senden</button>
+    </div>
+  </div>
+</form>
+
+
+
+<!--FOOTER-->
+<footer id="footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+  <span>WEBDESIGN made simple by Hayriye Yigit (2024)</span>
+  <nav id="footer-nav">
+  <a href="impressum.html">Impressum</a>
+  </nav>
+      </div>
+    </div>
+  </div>
+  
+    </footer>
+    <script defer>document.addEventListener("touchstart", function(){}, true);</script>
+
+  </body>
+
+</html>
