@@ -1,26 +1,24 @@
 /*=== FARBEN ===*/
 
-:root{
---blau:#1F4E8C;
---dunkel-grau:#3D3F45;
---hell-grau:#E5E5E5;
---rot:#A62C21;
+:root {
+  --blau: #1f4e8c;
+  --dunkel-grau: #3d3f45;
+  --hell-grau: #e5e5e5;
+  --rot: #a62c21;
 }
 
 /*=== GLOBEL ===*/
-
-html{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
   font-size: 16px;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 section {
@@ -48,8 +46,6 @@ section {
     padding-bottom: 0.5rem;
   }
 }
-
-
 
 /*=== GENERELLES ===*/
 
@@ -126,7 +122,6 @@ section {
   font-weight: normal;
 }
 
-
 .btn-typ-2 {
   border: 2px solid #fff;
   background-color: transparent;
@@ -140,7 +135,6 @@ section {
   border: 2px solid #a62c21;
   font-weight: normal;
 }
-
 
 .btn-typ-3 {
   border: 2px solid #3d3f45;
@@ -470,7 +464,7 @@ Wieviel % von 1920px sind 400px?
   margin-left: auto;
   margin-right: auto;
   -webkit-animation: logoAnimation 5s ease-in-out infinite alternate;
-          animation: logoAnimation 5s ease-in-out infinite alternate;
+  animation: logoAnimation 5s ease-in-out infinite alternate;
 }
 
 @media (max-width: 768px) {
@@ -481,7 +475,7 @@ Wieviel % von 1920px sind 400px?
 
 /* ===LEISTUNGEN-BEREICH=== */
 
-.item{
+.item {
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -624,7 +618,6 @@ Wieviel % von 1920px sind 400px?
 
 .service-box {
   text-align: center;
-
 }
 
 .service-box h1 {
@@ -690,13 +683,9 @@ Wieviel % von 1920px sind 400px?
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-
-
-  
 }
 #über-uns-container p {
   margin-top: 0;
-  
 }
 
 #über-uns-container > img {
@@ -840,7 +829,6 @@ Wieviel % von 1920px sind 400px?
   min-width: 170px;
 }
 
-
 @media (max-width: 1782px) {
   .leistungs-box {
     flex-basis: 27.5%;
@@ -969,7 +957,6 @@ Wieviel % von 1920px sind 400px?
     width: 100%;
   }
 }
-
 
 /*=== GRID-SYTEM ===*/
 
