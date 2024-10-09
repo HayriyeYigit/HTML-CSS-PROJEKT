@@ -614,6 +614,7 @@ Wieviel % von 1920px sind 400px?
 
 #service-bereich {
   background-color: #f0f0f0;
+  
 }
 
 .service-box {
@@ -648,15 +649,15 @@ Wieviel % von 1920px sind 400px?
 }
 
 #guenstig-icon {
-  background: #3d3f45 url("./../img/services-sprite.png") 0 0;
+  background: #3d3f45 url("./src/img/services-sprite.png") 0 0;
 }
 
 #schnell-icon {
-  background: #3d3f45 url("./../img/services-sprite.png") -120px 0;
+  background: #3d3f45 url("./src/img/services-sprite.png") -120px 0;
 }
 
 #modern-icon {
-  background: #3d3f45 url("./../img/services-sprite.png") -240px 0;
+  background: #3d3f45 url("./src/img/services-sprite.png") -240px 0;
 }
 
 @media (max-width: 768px) {
@@ -676,6 +677,7 @@ Wieviel % von 1920px sind 400px?
 
 #über-uns-bereich {
   background-color: #fff;
+  margin-top: 20px;
 }
 
 #über-uns-container {
@@ -683,9 +685,12 @@ Wieviel % von 1920px sind 400px?
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: -40px;
 }
 #über-uns-container p {
-  margin-top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #über-uns-container > img {
@@ -714,7 +719,7 @@ Wieviel % von 1920px sind 400px?
 
 @media (max-width: 1140px) {
   #über-uns-container > p {
-    width: 80%;
+    width: 90%;
     text-align: center;
   }
   #über-uns-container > img {
